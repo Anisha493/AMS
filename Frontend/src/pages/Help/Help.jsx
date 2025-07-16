@@ -35,7 +35,7 @@ const Help = () => {
           </div>
         </div>
        
-        <div className="hidden md:block">
+        <div className="hidden md: block">
           <div className="h-72 w-72 bg-blue-500 rounded-lg flex items-center justify-center">
             <div className="text-center">
               <div className="text-6xl mb-4">👥</div>
