@@ -7,6 +7,9 @@ const About = () => {
        <Navbar/>
        
        <div>
+        <p>This Attendance Management System helps schools and colleges track
+            student presence efficiently with modern digital tools.
+          </p>
        <p>Thank you for visiting, and feel free to <a href="contact">contact</a> with us!</p>
        </div>
        

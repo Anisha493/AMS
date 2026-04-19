@@ -7,6 +7,9 @@ import Content from './pages/Content/Content';
 import Help from './pages/Help/Help';
 import SignIn from './pages/SignIn/SignIn';
 import Register from './pages/Register/Register';
+import ForgotPasswordApp from './pages/ForgotPasswordApp/ForgotPasswordApp';
+
+
 
 function App() {
   
@@ -20,6 +23,7 @@ function App() {
       <Route path='/help' element={<Help/>} />
       <Route path='/signIn' element={<SignIn/>} />
       <Route path='/register' element={<Register/>} />
+      <Route path='/ForgotPasswordApp' element={<ForgotPasswordApp/>} />
     </Routes>
     </BrowserRouter>
 

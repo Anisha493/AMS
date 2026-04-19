@@ -1,8 +1,12 @@
+
 const Footer = () => {
   return (
     <footer className="bg-gray-500 text-white py-6 mt-8">
+
+      {/* Grid layout for About, Quick Links, and Contact Us sections */}
       <div className="container mx-auto px-4 grid grid-cols-1 md:grid-cols-3 gap-8">
-      
+
+      {/* About section */}
         <div>
           <h2 className="text-lg font-semibold mb-2">About</h2>
           <p className="text-sm">
@@ -12,7 +16,7 @@ const Footer = () => {
           <p className="text-sm">Thank you for visiting, and feel free to <a href="contact">contact</a> with us!</p>
         </div>
 
-        
+        {/* Quick Links section */}
         <div>
           <h2 className="text-lg font-semibold mb-2">Quick Links</h2>
           <ul className="space-y-1 text-sm">
@@ -23,7 +27,7 @@ const Footer = () => {
           </ul>
         </div>
 
-       
+          {/* Contact details section */}
         <div>
           <h2 className="text-lg font-semibold mb-2">Contact Us</h2>
           <p className="text-sm">Email: support@attendanceapp.com</p>
@@ -32,7 +36,7 @@ const Footer = () => {
         </div>
       </div>
 
-    
+          {/* Footer bottom text */}
       <div className="text-center mt-6 text-sm text-gray-300">
         © {new Date().getFullYear()} StudentConnectNepalApp. All rights reserved.
       </div>

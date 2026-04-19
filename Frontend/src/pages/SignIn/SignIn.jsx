@@ -6,7 +6,7 @@ const SignIn = () => {
     <title>Login Page</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <div className="flex flex-col md:flex-row min-h-screen">
-      <div className="bg-purple-500 text-white p-8 md:p-12 md:w-1/2 relative overflow-hidden">
+      <div className="bg-blue-500 text-white p-8 md:p-12 md:w-1/2 relative overflow-hidden">
         <div className="z-10 relative">
           <h2 className="text-2xl font-bold mb-6">📚StudentConnectNepal</h2>
           <div className="mt-20 md:mt-32">
