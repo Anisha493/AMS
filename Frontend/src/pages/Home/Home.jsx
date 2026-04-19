@@ -6,13 +6,19 @@ import studyImage from "../../assets/studyImage.png"
 
 
 const Home = () => {
+<<<<<<< HEAD
   // Refs for smooth scrool sections
+=======
+>>>>>>> 2fda68d40d5cff0d7e7989cdff653a061fd19466
   const aboutRef = useRef(null);
   const contentRef = useRef(null);
   const contactRef = useRef(null);
   const helpRef = useRef(null);
 
+<<<<<<< HEAD
   // Scroll functions
+=======
+>>>>>>> 2fda68d40d5cff0d7e7989cdff653a061fd19466
   const scrollToAbout = () => {
     aboutRef.current?.scrollIntoView({ behavior: "smooth" });
   };
@@ -31,18 +37,28 @@ const Home = () => {
 
   return (
     <div className="bg-white">
+<<<<<<< HEAD
       {/* Navbar with scroll handlers */}
+=======
+>>>>>>> 2fda68d40d5cff0d7e7989cdff653a061fd19466
       <Navbar 
         onAboutClick={scrollToAbout}
         onContentClick={scrollToContent}
         onContactClick={scrollToContact}
         onHelpClick={scrollToHelp}
       />
+<<<<<<< HEAD
       {/* Hero Section */}
+=======
+>>>>>>> 2fda68d40d5cff0d7e7989cdff653a061fd19466
       <div
-        className="bg-cover bg-center bg-no-repeat text-white py-32 px-4"
+        className="bg-cover bg-center bg-no-repeat text-black py-32 px-4"
         style={{
+<<<<<<< HEAD
           backgroundImage: `url(${studyImage})`,
+=======
+          backgroundImage: "url('https://wpvip.edutopia.org/wp-content/uploads/2024/12/hero_blog_Brain-Based-Learning_Teaching-Strategies_photo_iStock_2154414848_SeventyFour.jpg?w=2000&quality=85')",
+>>>>>>> 2fda68d40d5cff0d7e7989cdff653a061fd19466
         }}
       >
         <div className="max-w-3xl mx-auto text-center p-8 rounded-lg">
@@ -72,7 +88,22 @@ const Home = () => {
           It was nice having you here, and you're welcome to call us anytime.</p>
       </div>
 
+<<<<<<< HEAD
             {/* Features Section */}
+=======
+      <div ref={aboutRef} className="bg-gray-100 py-16 px-4 text-center">
+        <h2 className="text-3xl font-bold text-gray-800 mb-4">About Us</h2>
+        <p className="text-gray-700 text-lg max-w-6xl mx-auto mb-1">
+          Student Connect Nepal is committed to providing cutting-edge digital solutions focused on improving attendance tracking and educational analysis. This Attendance Monitoring System allows schools and colleges to effectively track students attendance using modern digital tools.</p>
+        <p className="text-gray-700 text-lg max-w-5xl mx-auto mb-1">
+          Student Connect Nepal is built on a committed community of members working in development, teaching, and design who come together to turn visits to schools into smooth digital experiences.</p>
+        <p className="text-gray-700 text-lg max-w-3xl mx-auto mb-1">
+          The mission of our work is eliminating paperwork, reducing absences, and offering teachers immediate resources to effectively and significantly reduce attendance data.</p>
+        <p className="text-gray-600 max-w-2xl mx-auto">
+          It was nice having you here, and you're welcome to call us anytime.</p>
+      </div>
+      
+>>>>>>> 2fda68d40d5cff0d7e7989cdff653a061fd19466
       <div ref={contentRef} className="bg-white py-16 px-4">
         <div className="max-w-5xl mx-auto text-center">
           <h2 className="text-3xl font-bold text-gray-800 mb-6">Key Features</h2>
@@ -149,17 +180,71 @@ const Home = () => {
         </div>
       </div>
 
+<<<<<<< HEAD
       {/* Help Section */}
 
       <div ref={helpRef} className="bg-white py-16 px-4">
         <div className="bg-white-600 text-black px-6 md:px-20 py-12 flex flex-col md:flex-row items-center justify-between relative">
           {/* Help Info */}
+=======
+      <div ref={contactRef} className="bg-gray-100 py-16 px-4">
+        <div className="max-w-4xl mx-auto text-center">
+          <h2 className="text-3xl font-bold text-gray-800 mb-6">Contact Us</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div className="text-left">
+              <h3 className="text-xl font-semibold text-gray-800 mb-4">Get in Touch</h3>
+              <div className="space-y-3">
+                <p className="text-gray-700">
+                  <span className="font-semibold">Email:</span> info@studentconnectnepal.com, studentconnectnepal901@gmail.com
+                </p>
+                <p className="text-gray-700">
+                  <span className="font-semibold">Phone:</span> +977-14567890, +977-0123456789
+                </p>
+                <p className="text-gray-700">
+                  <span className="font-semibold">Address:</span> Itahari, Nepal
+                </p>
+              </div>
+            </div>
+            <div className="text-left">
+              <h3 className="text-xl font-semibold text-gray-800 mb-4">Quick Contact</h3>
+              <form className="space-y-4">
+                <input
+                  type="text"
+                  placeholder="Your Name"
+                  className="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+                />
+                <input
+                  type="email"
+                  placeholder="Your Email"
+                  className="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+                />
+                <textarea
+                  placeholder="Your Message"
+                  rows="4"
+                  className="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+                ></textarea>
+                <button
+                  type="submit"
+                  className="w-full bg-blue-600 text-white py-3 rounded-lg font-semibold hover:bg-blue-500 transition duration-300"
+                >
+                  Send Message
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div ref={helpRef} className="bg-white py-16 px-4">
+        <div className="bg-white-600 text-black px-6 md:px-20 py-12 flex flex-col md:flex-row items-center justify-between relative">
+>>>>>>> 2fda68d40d5cff0d7e7989cdff653a061fd19466
         <div className="max-w-xl">
           <h1 className="text-4xl md:text-5xl font-semibold mb-4">Need Help?</h1>
           <p className="text-lg mb-6">
             We’re available in various channels to meet your needs. Reach out to us by live chat, email or online support case.
             You can also find us on your favorite social media platforms.
           </p>
+<<<<<<< HEAD
           {/* Help Search */}
           <div className="relative w-98">
             <input type="text" placeholder=" 🔍 Search help.."className="bg-white w-full pl-12 pr-5 py-3 rounded-full text-gray-700 text-base focus:outline-none focus:ring-2 focus:ring-blue-300 shadow-sm"/>
@@ -171,6 +256,28 @@ const Home = () => {
           </div>
         </div>
         {/* Help FAQs and Getting Started */}
+=======
+        
+          <div className="relative w-98">
+            <input type="text" placeholder=" 🔍 Search help.."className="bg-white w-full pl-12 pr-5 py-3 rounded-full text-gray-700 text-base focus:outline-none focus:ring-2 focus:ring-blue-300 shadow-sm"/>
+            <div className="absolute right-4 top-1/2 transform -translate-y-1/2 text-White-400">
+            <svg
+          class="h-5 w-5"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          viewBox="0 0 24 24">
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M21 21l-4.35-4.35M17 11a6 6 0 11-12 0 6 6 0 0112 0z"
+          />
+        </svg>
+            </div>
+          </div>
+        </div>
+       
+>>>>>>> 2fda68d40d5cff0d7e7989cdff653a061fd19466
         <div className="hidden md:block">
           <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-3xl font-bold text-gray-800 mb-6">Help & Support</h2>
@@ -224,10 +331,16 @@ const Home = () => {
           </div>
         </div>
         </div>
+<<<<<<< HEAD
        </div>
       </div>
 
       {/* Footer */}
+=======
+      </div>
+      </div>
+
+>>>>>>> 2fda68d40d5cff0d7e7989cdff653a061fd19466
       <Footer />
     </div>
   );

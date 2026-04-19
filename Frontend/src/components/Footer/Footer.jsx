@@ -5,8 +5,11 @@ const Footer = () => {
 
       {/* Grid layout for About, Quick Links, and Contact Us sections */}
       <div className="container mx-auto px-4 grid grid-cols-1 md:grid-cols-3 gap-8">
+<<<<<<< HEAD
 
       {/* About section */}
+=======
+>>>>>>> 2fda68d40d5cff0d7e7989cdff653a061fd19466
         <div>
           <h2 className="text-lg font-semibold mb-2">About</h2>
           <p className="text-sm">
@@ -15,8 +18,11 @@ const Footer = () => {
           </p>
           <p className="text-sm">Thank you for visiting, and feel free to <a href="contact">contact</a> with us!</p>
         </div>
+<<<<<<< HEAD
 
         {/* Quick Links section */}
+=======
+>>>>>>> 2fda68d40d5cff0d7e7989cdff653a061fd19466
         <div>
           <h2 className="text-lg font-semibold mb-2">Quick Links</h2>
           <ul className="space-y-1 text-sm">
@@ -26,8 +32,11 @@ const Footer = () => {
             <li><a href="/signIn" className="hover:underline">Login</a></li>
           </ul>
         </div>
+<<<<<<< HEAD
 
           {/* Contact details section */}
+=======
+>>>>>>> 2fda68d40d5cff0d7e7989cdff653a061fd19466
         <div>
           <h2 className="text-lg font-semibold mb-2">Contact Us</h2>
           <p className="text-sm">Email: support@attendanceapp.com</p>
@@ -35,8 +44,11 @@ const Footer = () => {
           <p className="text-sm">Address: Itahari, Nepal</p>
         </div>
       </div>
+<<<<<<< HEAD
 
           {/* Footer bottom text */}
+=======
+>>>>>>> 2fda68d40d5cff0d7e7989cdff653a061fd19466
       <div className="text-center mt-6 text-sm text-gray-300">
         © {new Date().getFullYear()} StudentConnectNepalApp. All rights reserved.
       </div>
